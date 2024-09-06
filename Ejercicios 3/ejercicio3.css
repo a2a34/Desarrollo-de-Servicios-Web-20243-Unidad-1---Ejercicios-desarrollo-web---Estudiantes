@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+}
+
+button:nth-child(1) {
+    background-color: #4CAF50; /* Verde para sumar */
+}
+
+button:nth-child(2) {
+    background-color: #f44336; /* Rojo para restar */
+}
+
+button:nth-child(3) {
+    background-color: #2196F3; /* Azul para multiplicar */
+}
+
+button:nth-child(4) {
+    background-color: #FF9800; /* Naranja para dividir */
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+}

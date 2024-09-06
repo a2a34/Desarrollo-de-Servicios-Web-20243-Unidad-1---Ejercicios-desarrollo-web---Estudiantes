@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio3.css">
+    <title>Calculadora Básica</title>
+</head>
+<body>
+    <div class="calculator">
+        <h2>Calculadora Básica</h2>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+        <div class="buttons">
+            <button onclick="calculate('add')">Sumar</button>
+            <button onclick="calculate('subtract')">Restar</button>
+            <button onclick="calculate('multiply')">Multiplicar</button>
+            <button onclick="calculate('divide')">Dividir</button>
+        </div>
+        <div class="result">
+            <p>Resultado: <span id="result"></span></p>
+        </div>
+    </div>
+    <script src="ejercicio3.js"></script>
+</body>
+</html>
