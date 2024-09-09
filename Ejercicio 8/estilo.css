@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(56, 113, 179);
+    font-family: "JetBrains Mono",monospace;
+}
+
+/* Propiedades para los divs individuales */
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-size: larger;
+    font-weight: bold;
+    font-optical-sizing: auto;
+    color: whitesmoke;
+}
+
+#divTitulo{
+    padding-top: 15%;
+}
+
+#nuevaTarea{
+    width: 20%;
+    margin-right: 5px;   
+}
+
+#agregarTarea{
+    width: 6%;
+    margin-left: 5px;   
+}
+
+#listTarea{
+    padding-right: 10px;
+}
