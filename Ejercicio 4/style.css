@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+}
+
+body h2{
+    text-align: center;
+    color: gray;
+}
+
+#reloj {
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+    font-size: 2rem;
+}

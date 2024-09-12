@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+}
+
+.contenedor-formulario {
+    background:white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.contenedor-formulario h2 {
+    text-align: center;
+}
+
+.contenedor-formulario label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.contenedor-formulario input {
+    width: 100%;
+    padding: 10px;
+}
+
+.contenedor-formulario button {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}

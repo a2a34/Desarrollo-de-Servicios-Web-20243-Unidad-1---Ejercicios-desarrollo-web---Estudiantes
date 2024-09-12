@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+}
+
+.galeria {
+    text-align: center;
+}
+
+.galeria #imagenPrincipal {
+    width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.miniaturas{
+    display: flex;
+    gap: 10px;
+}
+
+.miniaturas img {
+    width: 500px;
+    cursor: pointer;
+}
